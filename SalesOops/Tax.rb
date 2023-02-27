@@ -96,7 +96,7 @@ class Tax
             @sales_tax += @tax
             @total_price += @price
 
-            puts "sales4 : #{@sales_tax} , total = #{@total_price}"
+            # puts "sales4 : #{@sales_tax} , total = #{@total_price}"
             puts "#{@quantity} #{item[productKey]} :  #{@quantity * @price.round(2)}"
           end
         end

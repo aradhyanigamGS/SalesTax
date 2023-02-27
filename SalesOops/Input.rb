@@ -2,7 +2,7 @@ class Input
   
   def input
 
-    puts "Taking input"
+    # puts "Taking input"
     
     @input = []
 

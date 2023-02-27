@@ -6,7 +6,7 @@ class Main
   
   input = Input.new
   productsArr = input.input
-  puts "#{productsArr}"
+  # puts "#{productsArr}"
 
 
   @tax = 0.00
