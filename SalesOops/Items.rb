@@ -12,7 +12,6 @@ class Items
     }
 
   end
-  # "imported_box_of_chocolates" => "imported box of chocolates",
   
   def item
     @item

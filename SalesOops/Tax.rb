@@ -29,11 +29,7 @@ class Tax
 
       taxation(productInfo,@sales_tax,@total_price)
 
-      
-
     end
-    
-    
   end
 
   def taxation(productInfo,sales_tax,total_price)
@@ -100,14 +96,7 @@ class Tax
             puts "#{@quantity} #{item[productKey]} :  #{@quantity * @price.round(2)}"
           end
         end
-  
-  
       end
     end
-
-    
   end
-
-
-
 end
